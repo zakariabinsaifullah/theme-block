@@ -1,0 +1,1 @@
+{"version":3,"file":"editor.css","sources":["webpack://webackstop-guten-blocks/./src/blocks/section-block/editor.scss"],"sourcesContent":["[data-type=\"gmtb-blocks/section-block\"] {\r\n  max-width: 100% !important;\r\n}\r\n"],"mappings":"AAAA;AACA;;","sourceRoot":""}

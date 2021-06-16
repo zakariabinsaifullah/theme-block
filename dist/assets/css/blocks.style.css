@@ -1,0 +1,99 @@
+/**
+ *  === Theme Blocks Style ===
+ */
+a,
+a:hover,
+a:focus {
+  text-decoration: none !important;
+}
+
+/*Hereo Block */
+.box,
+.normal {
+  display: inline-block;
+}
+
+.box {
+  border: 4px double #fff;
+}
+
+/* Section Overlay */
+section {
+  position: relative;
+  z-index: 1;
+}
+
+section.black_overlay:before,
+section.white_overlay:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+}
+
+section.black_overlay:before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section.white_overlay:before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Advanced Button */
+.advanced_btn a {
+  display: inline-block;
+  padding: 8px 24px;
+  margin: 15px 0;
+}
+
+.advanced_btn a.iconic_btn span.dashicons {
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+.advanced_btn a.iconic_btn i {
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+.advanced_btn a.btn_outline {
+  border-width: 2px;
+  border-style: solid;
+}
+/* Responsive Codes */
+
+/**
+ * Small Device
+ */
+
+@media only screen and (max-width: 600px) {
+  .box,
+  .normal {
+    padding: 5px 20px;
+  }
+}
+
+/**
+ * Medium Device
+ */
+
+@media only screen and (min-width: 600px) {
+  .box,
+  .normal {
+    padding: 5px 20px;
+  }
+}
+
+/**
+ * Large Device
+ */
+
+@media only screen and (min-width: 992px) {
+  .box,
+  .normal {
+    padding: 10px 40px;
+  }
+}
